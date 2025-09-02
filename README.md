@@ -2,10 +2,10 @@
 Official repository for MoE-Enhanced-TTT: Advancing Medical Image Segmentation. This code is based on nn-UNet, U-Mamba, TTT-Unet and serves as the official implementation of our paper.
 
 ## Architecture
-<img src="images/TTT Framework.png" alt="TTT-MoE Architecture" width="700"/>
+<img src="./TTT Framework.png" alt="TTT-MoE Architecture" width="700"/>
 
 ## Self-Supervised Learning in TTT-MoE
-<img src="images/Self Supervised Learning.png" alt="Self-Supervised Learning in TTT-MoE" width="700"/>
+<img src="./Self Supervised Learning.png" alt="Self-Supervised Learning in TTT-MoE" width="700"/>
 
 ## Installation
 
