@@ -1,0 +1,26 @@
+.DS_Store
+data/nnUNet_raw
+data/nnUNet_predcit
+data/nnUNet_preprocessed
+data/nnUNet_evaluation
+data/nnUNet_results
+data/nnUNet_predcit_CT
+data/nnUNet_predcit_CELL
+data/nnUNet_predcit_Endovis17
+data/*
+deploy/
+__pycache__/
+
+slurm*
+
+# Training scripts
+uttt/train_sh/
+uttt/cell_train_sh/
+uttt/endovis_train_sh/
+uttt/flare_train_sh/
+
+# IDE
+.idea/
+
+# Large binary files
+assets/*.mp4
