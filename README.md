@@ -101,7 +101,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c CONFIGURATION
    ```
 
 ## Paper
-
+```
 @INPROCEEDINGS{chen2025moe,
   author={Chen, Yuming and Wu, Qi and Xie, Yutong},
   booktitle={2025 International Conference on Digital Image Computing: Techniques and Applications (DICTA)}, 
@@ -112,7 +112,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c CONFIGURATION
   pages={1-8},
   keywords={Training;Representation learning;Image segmentation;Three-dimensional displays;Computational modeling;Self-supervised learning;Transformers;Feature extraction;Planning;Software development management},
   doi={10.1109/DICTA68720.2025.11302485}}
-
+```
 
 ## Acknowledgements
 
