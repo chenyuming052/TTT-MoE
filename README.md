@@ -1,4 +1,4 @@
-# TTT-MoE(The repository is currently being checked and refined. Some parts may still change.)
+# TTT-MoE (The repository is currently being checked and refined.)
 
 Official repository for **MoE-Enhanced-TTT: Advancing Medical Image Segmentation**. This code is based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [U-Mamba](https://github.com/bowang-lab/U-Mamba), and [TTT-Unet](https://github.com/rongzhou7/TTT-Unet), and serves as the official implementation of our paper.
 
