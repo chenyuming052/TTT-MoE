@@ -10,33 +10,22 @@ Official repository for **MoE-Enhanced-TTT: Advancing Medical Image Segmentation
 
 <img src="assets/Self Supervised Learning.png" alt="Self-Supervised Learning in TTT-MoE" width="700"/>
 
-## Installation
+## Installation 
 
-Requirements: `Ubuntu 20.04`, `CUDA 12.1`
+Requirements: `Ubuntu 20.04`, `CUDA 11.8`
 
-1. Create a virtual environment: `conda create -n uttt python=3.10 -y` and `conda activate uttt`
-2. Install [PyTorch](https://pytorch.org/get-started/previous-versions/) 2.1.0:
-   ```bash
-   pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
-   ```
-3. Install [Mamba](https://github.com/state-spaces/mamba):
-   ```bash
-   pip install causal-conv1d==1.4.0
-   pip install mamba-ssm==1.2.2
-   ```
-4. Clone the repository:
-   ```bash
-   git clone https://github.com/MCG-NJU/TTT-MoE.git
-   cd TTT-MoE/uttt
-   ```
-5. Install dependencies:
-   ```bash
-   pip install -e .
-   ```
-6. Pin compatible versions of numpy and transformers:
-   ```bash
-   pip install "numpy<2" "transformers<4.40"
-   ```
+1. Create a virtual environment: `conda create -n ttt-moe python=3.10 -y` and `conda activate ttt-moe `
+2. Install [Pytorch](https://pytorch.org/get-started/previous-versions/#linux-and-windows-4) 2.0.1: `pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118`
+3. Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv1d>=1.2.0` and `pip install mamba-ssm --no-cache-dir`
+4. `cd U-Mamba/umamba` and run `pip install -e .`
+
+
+sanity test: Enter python command-line interface and run
+
+```bash
+import torch
+import mamba_ssm
+```
 
 ### Sanity Test
 
