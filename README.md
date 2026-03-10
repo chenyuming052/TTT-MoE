@@ -99,23 +99,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c CONFIGURATION
   volume={},
   number={},
   pages={1-8},
-  keywords={Training;Representation learning;Image segmentation;Three-dimensional displays;Computational modeling;Self-supervised learning;Transformers;Feature extraction;Planning;Software development management},
   doi={10.1109/DICTA68720.2025.11302485}}
-
-@article{zhou2024ttt,
-  title={Ttt-unet: Enhancing u-net with test-time training layers for biomedical image segmentation},
-  author={Zhou, Rong and Yuan, Zhengqing and Yan, Zhiling and Sun, Weixiang and Zhang, Kai and Li, Yiwei and Ye, Yanfang and Li, Xiang and He, Lifang and Sun, Lichao},
-  journal={arXiv preprint arXiv:2409.11299},
-  year={2024}
-
-
-@article{U-Mamba,
-    title={U-Mamba: Enhancing Long-range Dependency for Biomedical Image Segmentation},
-    author={Ma, Jun and Li, Feifei and Wang, Bo},
-    journal={arXiv preprint arXiv:2401.04722},
-    year={2024}
-}
-}
 
 ```
 
