@@ -89,7 +89,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c CONFIGURATION
    pip install "numpy<2" "transformers<4.40"
    ```
 
-## Paper
+## Cite
 ```
 @INPROCEEDINGS{chen2025moe,
   author={Chen, Yuming and Wu, Qi and Xie, Yutong},
